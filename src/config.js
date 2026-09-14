@@ -24,13 +24,13 @@ export const person = {
 
 // ── Stage 1: the wrapped gift box on the landing screen ───────
 export const gate = {
-  eyebrow: 'Delivery for one (1) financial analyst',
+  eyebrow: 'Delivery for my one and only Manu 😍',
   title: `Something arrived for you, ${person.name}`,
   hint: 'tap the box',
   // Nudges that appear if she waits too long before clicking
   nags: [
     'Go on. Tap it. 👀',
-    'You analyse portfolios for a living. It is a box.',
+    '5 ₹ denge, open the box 😁',
     'The box is getting impatient.',
     'This is the most suspense a gift box has ever had.',
     'Fine. I can wait. I have all day.',
@@ -212,6 +212,8 @@ export const letter = {
   lines: [
     `2014. A hostel. Me in 9th standard, completely lost. You three years ahead, in the bed right next to mine, somehow patient enough to explain chemistry to me at 11 PM when you absolutely did not have to.`,
     `You called me ${person.oldNickname}. I called you Nidhi didi, because that felt like the respectful thing to do. Somewhere along the way you became Manu Muni, and it stuck forever.`,
+    `You were in 12th that year, and somehow I ended up writing your entire physics practical file — in my very best handwriting, because you wanted it to look good. Still the only time in my life my handwriting has been treated as a professional asset.`,
+    `Say the word and I will write the next one too. Files, assignments, anything. The handwriting is still available for hire. Rates are very reasonable for you. 😌`,
     `That was one year. One. And we have not stopped talking since — the three-hour calls, the gossip, the knowledge exchange, the laughing at things nobody else would find funny.`,
     `You read everything and you know something about everything, and you have never once used that to make me feel small. You just explain it. Same as you did with those chemistry chapters.`,
     `Every time we talk I come away wanting to do better. You have been doing that to me for ten years without even trying.`,
