@@ -99,11 +99,15 @@ export default function GiftPicker({ onNext }) {
             </span>
           </div>
 
+          {/* She has to actually send the list before the journey continues. */}
           <div className="btn-row">
-            {!sent && (
-              <button className="btn btn--mint" onClick={send}>{giftPicker.sendLabel}</button>
+            {!sent ? (
+              <button className="btn btn--huge btn--mint pulse" onClick={send}>
+                {giftPicker.sendLabel}
+              </button>
+            ) : (
+              <button className="btn btn--huge btn--gold" onClick={onNext}>One more thing… 🎡</button>
             )}
-            <button className="btn btn--huge btn--gold" onClick={onNext}>One more thing… 🎡</button>
           </div>
         </>
       )}
