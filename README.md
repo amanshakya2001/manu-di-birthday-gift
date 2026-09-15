@@ -11,16 +11,30 @@ npm install
 npm run dev      # http://localhost:5173
 ```
 
-## Build & share it
+## Build it
 
 ```bash
 npm run build    # outputs to dist/
 npm run preview  # preview the production build locally
 ```
 
-`dist/` is a fully static folder. Drag it onto **Netlify Drop**, push it to
-**GitHub Pages**, or deploy with **Vercel** — it needs no server. (The build uses a
-relative base path, so it works from any subfolder too.)
+## Deployment
+
+**Live at <https://manu-di-birthday-gift.onrender.com>**, hosted on
+[Render](https://render.com) as a static site. Config lives in
+[`render.yaml`](render.yaml) — Render builds with `npm ci && npm run build` and
+serves `dist/`.
+
+To deploy a change, just push:
+
+```bash
+git push
+```
+
+Render picks up the commit and rebuilds automatically. No local build needed.
+
+`dist/` is plain static output with a relative base path, so it also works on
+Netlify, Vercel, or any static host if you ever move.
 
 ## Make it yours
 
